@@ -1,0 +1,66 @@
+hr {
+    border-style: dotted none none;
+    width: 10%;
+    border-width: 15px;
+    color: #D5EEBB;
+}
+
+body {
+    background-color: #7FC8A9;
+    margin: 0px;
+}
+
+h3 {
+    color: #5F7A61;
+}
+
+h1 {
+    color: #D5EEBB;
+}
+
+td, li {
+    color: #444941;
+}
+
+.welcome {
+    background-color: aqua;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.mountain {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.cloud {
+    position: absolute;
+    
+}
+
+.cld1 {
+    width: 30%;
+    left: 10px;
+}
+
+.cld2 {
+    right: 30px;
+    width: 20%;
+}
+
+.welcome h1 {
+    color: white;
+    margin: 0px;
+    position: relative;
+}
+
+
+.welcome p {
+    margin: 0px;
+    color: grey;
+}
+
+.below {
+    padding: 20px;
+}
