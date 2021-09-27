@@ -1,31 +1,27 @@
 hr {
-    border-style: dotted none none;
-    width: 10%;
-    border-width: 15px;
-    color: #D5EEBB;
+  color: #F3F0D7;  
 }
 
 body {
-    background-color: #7FC8A9;
+    background-color: #CEE5D0;
     margin: 0px;
+    font-family: 'Comfortaa', cursive;
 }
 
 h3 {
-    color: #5F7A61;
+    color: #E0C097;
+    font-family: 'Gluten', cursive;
 }
 
 h1 {
-    color: #D5EEBB;
-}
-
-td, li {
-    color: #444941;
+    color: #E0C097;
+    font-family: 'Dancing Script', cursive;
 }
 
 .welcome {
-    background-color: aqua;
+    background-image: linear-gradient(#2c3e50, #3498db);
     text-align: center;
-    padding-top: 30px;
+    padding-top: 100px;
 }
 
 .mountain {
@@ -41,12 +37,14 @@ td, li {
 
 .cld1 {
     width: 30%;
+    top: 100px;
     left: 10px;
 }
 
 .cld2 {
     right: 30px;
     width: 20%;
+    top: 20px;
 }
 
 .welcome h1 {
@@ -63,4 +61,21 @@ td, li {
 
 .below {
     padding: 20px;
+}
+
+.Skills {
+    text-align: center;
+    padding: 30px;
+}
+
+.skills-profile {
+    width: 30%;
+}
+
+.skill-img-0 {
+    width: 20%;  
+}
+
+.skill-img-1 {
+    width: 20%;
 }
