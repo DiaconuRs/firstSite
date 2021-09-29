@@ -1,29 +1,34 @@
 hr {
-  color: #F3F0D7;  
+  background-color: #57837B;  
+  display: inline-block;
+  width: 20%;
+  margin: 40px;
 }
 
 body {
-    background-color: #CEE5D0;
+    background-color: #F1ECC3;
     margin: 0px;
     font-family: 'Comfortaa', cursive;
-}
-
-h3 {
-    color: #E0C097;
-    font-family: 'Gluten', cursive;
     font-size: 30px;
 }
 
+h3 {
+    color: #57837B;
+    font-family: 'Gluten', cursive;
+    font-weight: 500;
+}
+
 h1 {
-    color: #E0C097;
+    color: #57837B;
     font-family: 'Dancing Script', cursive;
-    font-size: 80px;
+    font-size: 3.5em;
 }
 
 .welcome {
-    background-image: linear-gradient(#2c3e50, #3498db);
+    background-image: linear-gradient(#2c3e50,#3498db);
     text-align: center;
     padding-top: 100px;
+    line-height: 2;
 }
 
 .mountain {
@@ -38,7 +43,7 @@ h1 {
 }
 
 .cld1 {
-    width: 30%;
+    width: 25%;
     top: 100px;
     left: 10px;
 }
@@ -59,20 +64,20 @@ h1 {
 .welcome p {
     margin: 0px;
     color: grey;
-    font-size: 30px;
-}
-
-.below {
-    padding: 20px;
-}
-
-.Skills h1 {
-    font-size: 45px;
+    font-size: 1em;
+    font-weight: 900;
 }
 
 .Skills {
     text-align: center;
-    padding: 30px;
+}
+
+.Skills p {
+    margin: 0px;
+}
+
+.Skills h1 {
+    font-size: 2em;
 }
 
 .skills-profile {
@@ -81,8 +86,27 @@ h1 {
 
 .skill-img-0 {
     width: 150px;  
+    float: left;
+    background-color: aqua;
+    border-radius: 100%;
+    margin-right: 20px;
 }
 
 .skill-img-1 {
     width: 150px;
+    float: right;
+    margin-left: 15px;
+    background-color: cadetblue;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.skill-row {
+    display: block;
+    width: 60%;
+    margin: 0px auto 100px auto;
+}
+
+.skill-row h3, .skill-row p {
+    text-align: left;
 }
